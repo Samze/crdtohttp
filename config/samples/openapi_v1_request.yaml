@@ -1,0 +1,12 @@
+---
+apiVersion: openapi.pivotal.io/v1
+kind: Request
+metadata:
+  name: request-sample
+spec:
+  path: http://dummy.restapiexample.com/api/v1/create
+  method: post
+  body: '{"name":"test","salary":"123","age":"23"}'
+  headers:
+    - "Content-type: application/json"
+status: {}

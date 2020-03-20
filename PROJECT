@@ -1,0 +1,7 @@
+version: "2"
+domain: pivotal.io
+repo: github.com/samze/crdotohttp
+resources:
+- group: openapi
+  version: v1
+  kind: Request
